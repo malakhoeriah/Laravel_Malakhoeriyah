@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>@yield('title') Tokap Admin</title>
+    <title>@yield('title')  Tokap Admin</title>
     <link rel="icon" type="image/png" href="{{url('favicon.png')}}">
 
     <!-- Bootstrap core CSS-->
