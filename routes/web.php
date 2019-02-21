@@ -15,15 +15,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-<<<<<<< HEAD
-=======
+
 Route::prefix('admin')->group(function(){
 	Route::get('/', function(){
 		return view('admin.main');
 	})->name('admin.home');
 });
 
->>>>>>> episode-2
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
